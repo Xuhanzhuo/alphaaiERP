@@ -1,0 +1,40 @@
+.new-customer {
+    padding: 20px;
+  }
+  
+  .new-customer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .new-customer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-customer label {
+    margin-bottom: 10px;
+  }
+  
+  .new-customer input[type="text"],
+  .new-customer input[type="email"],
+  .new-customer input[type="tel"],
+  .new-customer input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .new-customer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-customer button:hover {
+    background-color: #45a049;
+  }
+  

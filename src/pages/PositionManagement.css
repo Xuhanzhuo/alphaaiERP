@@ -1,0 +1,37 @@
+.position-management {
+    padding: 20px;
+  }
+  
+  .position-management h2 {
+    margin-bottom: 10px;
+  }
+  
+  .position-management input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .position-management table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .position-management th,
+  .position-management td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .position-management th.table-header {
+    background-color: #f2f2f2;
+    color: black; /* Ensure headers are black */
+    text-align: left;
+  }
+  
+  .position-management td a {
+    margin-right: 10px;
+    color: blue; /* or whatever color you prefer */
+  }
+  

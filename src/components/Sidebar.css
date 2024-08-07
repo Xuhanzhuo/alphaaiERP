@@ -1,0 +1,105 @@
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures footer stays at bottom */
+    height: 100vh; /* Takes full height */
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .profile-info h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px; /* Adjust spacing here */
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Makes the menu take up available space */
+  }
+  
+  .sidebar-menu .menu-item {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #007bff; /* Change icon color to blue */
+  }
+  
+  .sidebar-menu .menu-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar-menu li a {
+    color: #333; /* Change text color to black */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .sidebar-menu li a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .submenu li {
+    padding: 10px 20px;
+  }
+  
+  .submenu li a {
+    color: #333; /* Change submenu text color to black */
+    text-decoration: none;
+  }
+  
+  .submenu li a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar-footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  

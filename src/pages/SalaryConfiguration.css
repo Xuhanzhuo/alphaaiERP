@@ -1,0 +1,48 @@
+.salary-configuration {
+    padding: 20px;
+  }
+  
+  .salary-configuration h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .salary-configuration .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .salary-configuration .search-bar input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .salary-configuration table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .salary-configuration table, .salary-configuration th, .salary-configuration td {
+    border: 1px solid #ddd;
+  }
+  
+  .salary-configuration th, .salary-configuration td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .salary-configuration th {
+    background-color: blue;
+    color: white;
+  }
+  
+  .salary-configuration .salary-info {
+    margin-top: 20px;
+  }
+  
+  .salary-configuration button {
+    margin-right: 10px;
+  }
+  
+  

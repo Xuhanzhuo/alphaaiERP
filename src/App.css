@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* 根据你的设计调整宽度 */
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px; /* 根据你的设计调整 */
+}

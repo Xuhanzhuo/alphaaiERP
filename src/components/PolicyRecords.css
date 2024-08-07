@@ -1,0 +1,29 @@
+/* src/components/PolicyRecords.css */
+.policy-records {
+    padding: 20px;
+  }
+  
+  .policy-records h1 {
+    margin-bottom: 20px;
+  }
+  
+  .policy-records input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .policy-records table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .policy-records table, .policy-records th, .policy-records td {
+    border: 1px solid black;
+  }
+  
+  .policy-records th, .policy-records td {
+    padding: 10px;
+    text-align: left;
+  }
+  

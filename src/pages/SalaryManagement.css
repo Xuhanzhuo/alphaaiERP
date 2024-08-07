@@ -1,0 +1,49 @@
+/* src/pages/SalaryManagement.css */
+.salary-management {
+    padding: 20px;
+  }
+  
+  .salary-management h2 {
+    margin-bottom: 10px;
+  }
+  
+  .salary-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .salary-table {
+    margin-top: 20px;
+  }
+  
+  .salary-summary {
+    margin-bottom: 10px;
+    
+  }
+  
+  .salary-summary span {
+    margin-right: 10px;
+  }
+  
+  .salary-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .salary-table th,
+  .salary-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .salary-table th {
+    background-color: blue;
+    color: white; /* Ensure headers are black */
+    text-align: left;
+  }
+  
+  .salary-table td a {
+    color: blue; /* or whatever color you prefer */
+  }
+  

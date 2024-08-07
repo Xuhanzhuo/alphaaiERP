@@ -1,0 +1,39 @@
+.add-product {
+    padding: 20px;
+  }
+  
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-form label {
+    font-weight: bold;
+  }
+  
+  .product-form input,
+  .product-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #0056b3;
+  }
+  
